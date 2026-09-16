@@ -1,0 +1,422 @@
+
+  
+  /* common */
+  /* Text */
+  * {font-weight: 400;}
+  body[data-lang="en"] h1{ font-size: 4rem; line-height:5rem;}
+  body[data-lang="kr"] h1{ font-size: 4rem; line-height:5.4rem;}
+  body[data-lang="en"] h2{ font-size: 3rem; line-height: 3.2rem;}
+  body[data-lang="kr"] h2{ font-size: 3rem; line-height: 4rem;}
+  body[data-lang="en"] h3{ font-size: 2.2rem; line-height: 2.6rem;}
+  body[data-lang="kr"] h3{ font-size: 2.2rem; line-height: 3rem;}
+  body[data-lang="en"] h4{ font-size: 1.6rem; line-height: 2rem;}
+  body[data-lang="kr"] h4{ font-size: 1.6rem; line-height: 2.4rem;}
+  h5{ font-size: 1.4rem; line-height: 1.6rem;}
+  h6{ font-size: 1rem; line-height: 1.6rem;}
+  p{ font-size: 1rem; line-height: 1.8rem;}
+  
+  
+  b, .title {font-weight: 700;}
+  a, span,
+  a h4,
+  a h5{font-weight: inherit;font-family: inherit;}
+  
+  
+  .textBox{
+    z-index: 2;
+  }
+
+
+  .wrap.type-flex{
+    display: flex;
+  }
+  .wrap.type-flex.direc-row{
+    flex-direction: row;
+    align-items: center;
+  
+  }
+  .wrap.type-flex.direc-row.size-50p{
+    gap: 60px;
+  }
+  .wrap.type-flex.direc-row.size-50p > *{
+    flex: 1;
+  }
+  .wrap.size-center{
+    gap: 30px;
+  }
+  .wrap.size-center > *{
+    width: 100%;
+  }
+  .wrap.type-flex.direc-col{
+    flex-direction: column;
+  }
+  
+  
+  
+
+/* script */
+
+/* custom */
+body {
+  color: #333;
+}
+
+
+
+
+.sec-intro{	
+  z-index: 5;
+  /* background: linear-gradient(-45deg, #555, #222,#000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite; */
+}
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.sec-intro .titleBox{
+  text-align: center;
+  z-index: 5;
+  
+}
+.sec-intro .titleBox h3 {
+  width: fit-content;
+  margin: 0 auto;
+  border-bottom: 3px solid #000;
+  display: block;
+  font-weight: bold;
+}
+.sec-intro .titleBox h4 {
+  margin-top: 20px;
+}
+header,
+.sec-intro .titleBox,
+.secItem:not(.active) {
+  transition: 2s opacity;
+
+}
+
+body.loading header,
+body.loading .sec-intro .titleBox,
+body.loading .secItem:not(.active){
+  opacity: 0;
+} 
+.sec-intro .titleBox .logo {
+  background-image: url(../resources/gio-logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50%;
+  margin: 0 auto;
+  min-width: 200px;
+  height: 20vh;
+}
+
+
+.secItem[class*="sec-intro"] > .fp-tableCell > .wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: calc(92px + 30px) 40px 40px;
+  min-height: calc((var(--vh, 1vh) * 100));
+}
+
+.secItem[class*="sec-intro"] .canvasWrap{
+  flex: 1 1 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec-intro .titleBox {
+  max-width: 1260px;
+  flex: 0 0 auto;
+  margin: 0 auto;
+}
+.secItem[class*="sec-point"] .contentBox li > h4:nth-child(1) {
+  opacity: .6;
+}
+.secItem[class*="sec-point"] .titleBox > * {
+  margin: 0 auto 12px;
+}
+.secItem[class*="sec-point"] .contentBox li h3{
+  text-align: center;
+}
+
+.secItem[class*="sec-point"]:not(.active) .titleBox .logo{
+  background-position: top 100% center;
+  transform: scale(.8);
+  opacity: 0;
+}
+.secItem[class*="sec-point"] .contentBox{
+  gap: 20px !important;
+}
+.secItem[class*="sec-point"] .contentBox li{
+  text-align: left;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 30px !important;
+  border-radius: 20px !important;
+}
+.secItem[class*="sec-point"] .contentBox .iconBox{
+  width: 100%;
+  flex: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.secItem[class*="sec-point"] .contentBox .righttop .iconBox{
+  max-width: unset
+}
+.ic-point1{background-image: url(../resources/glo-detail1.png);}
+.ic-point2{background-image: url(../resources/glo-detail2.png);}
+
+
+.secItem:not(footer),
+.secItem:not(footer) .fp-tableCell {
+  min-height: 500px;
+}
+.secItem[class*="sec-point"] > .fp-tableCell,
+.secItem[class*="sec-detail"] > .fp-tableCell,
+.secItem[class*="sec-product"] > .fp-tableCell,
+  .secItem[class*="sec-partners"] > .fp-tableCell{
+  padding: 30px 30px;
+  padding-top: calc(92px + 30px);
+}
+.secItem[class*="sec-point"] > .fp-tableCell > .wrap,
+.secItem[class*="sec-detail"] > .fp-tableCell > .wrap,
+.secItem[class*="sec-product"] > .fp-tableCell > .wrap,
+  .secItem[class*="sec-partners"] > .fp-tableCell > .wrap{
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  padding: 60px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  gap: 40px;
+}
+
+.secItem[class*="sec-detail"] .titleBox {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.secItem[class*="sec-detail"] .titleBox .desc {
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px 30px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.secItem[class*="sec-detail"] .titleBox h3 {
+  border-left: 3px solid #000;
+  padding-left: 20px;
+}
+.secItem[class*="sec-detail"] .contentBox {
+  width: 25%;
+}
+.secItem[class*="sec-detail"] .contentBox ul li{
+  position: absolute;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  min-width: 240px;
+}
+.secItem[class*="sec-detail"] .contentBox ul li h5{
+  opacity: .6;
+  margin-top: 6px;
+}
+.secItem[class*="sec-detail"] .contentBox ul li.lefttop{  
+  position: relative;
+  
+  padding: unset;
+  border: unset;
+  border-left: 2px solid #ddd;
+  padding-left: 20px;
+  border-radius: 0;
+}
+.secItem[class*="sec-detail"] .contentBox ul li.righttop{  right: 0;   top: 0;}
+.secItem[class*="sec-detail"] .contentBox ul li.rightbottom{  right: 0;   bottom: 0;}
+.secItem[class*="sec-detail"] .contentBox ul li.leftbottom{  left: 0;   bottom: 0;}
+.secItem[class*="sec-detail"]  > .fp-tableCell{
+  transition: all .7s ease-in-out;
+
+}
+
+.secItem[class*="sec-detail"] .titleBox:nth-child(1) > *:nth-child(n+2){
+  margin-top: 12px;
+}
+.canvasBox {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 40px;
+
+}
+.canvasBox .canvasWrap canvas{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  max-width: 1260px
+}
+.canvasBox .canvasWrap {
+  order: 2;
+    flex: 1;
+    width: 100%;
+    align-content: center;
+}
+
+
+.secItem[class*="sec-point"] > .fp-tableCell > .wrap,
+.secItem[class*="sec-product"] > .fp-tableCell > .wrap{
+  background-color: unset;
+  padding: unset;
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.secItem[class*="sec-point"] .titleBox,
+.secItem[class*="sec-product"] .titleBox{
+  text-align: center;
+}
+.secItem[class*="sec-point"] .contentBox,
+.secItem[class*="sec-product"] .contentBox {
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  flex: 1;
+  max-width: 1260px;
+  margin: 0 auto;
+  width: 100%;
+}
+.secItem[class*="sec-point"] .contentBox li,
+.secItem[class*="sec-product"] .contentBox li{
+  flex: 1;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 40px;
+  flex-direction: column;
+
+  height: 100%;
+  max-height: 800px;
+}
+.secItem[class*="sec-product"] .contentBox li{
+  justify-content: flex-start;
+  gap: 30px;
+}
+.secItem[class*="sec-product"] .contentBox li h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secItem[class*="sec-product"] .contentBox li h4{
+  flex: 1;
+}
+.secItem[class*="sec-product"] .contentBox .iconBox{
+  width: 100%;
+  margin: 0 auto;
+}
+.secItem[class*="sec-product"] .contentBox .iconBox .icon{
+  background-size: cover;
+  border-radius: 12px;
+  height: 0;
+  padding-bottom: 60%;
+  background-position: left bottom;
+}
+.ic-product1{background-image: url(../resources/glo-product1bg.png?update=241224);}
+.ic-product2{background-image: url(../resources/glo-product2bg.png?update=241224);}
+.ic-product3{background-image: url(../resources/glo-product3bg.png?update=241224);}
+
+
+
+.secItem[class*="sec-partners"]{
+}
+.secItem[class*="sec-partners"] > .fp-tableCell > .wrap{
+  text-align: center;
+  padding: unset;
+}
+.secItem[class*="sec-partners"] .contentBox{
+  flex: 1;
+  justify-content: center;
+  width: 100%;
+  /* padding: 40px; */
+  align-items: center;
+  max-width: 1260px;
+  margin: 0 auto;
+  border-radius: 12px;
+  /* border: 1px solid #ddd; */
+  display: flex;
+  flex-direction: column;
+}
+.secItem[class*="sec-partners"] .contentBox .partnerItem {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.secItem[class*="sec-partners"] .contentBox .partnerItem .titleBox{
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  width: 100%;
+}
+.secItem[class*="sec-partners"] .contentBox .partnerItem .titleBox h4{
+  padding-left: 20px;
+  border-left: 3px solid #000;
+}
+.secItem[class*="sec-partners"] .contentBox .partnerItem h3 {
+  padding-bottom: 10px;
+}
+.secItem[class*="sec-partners"] .contentBox .partnerItem:first-child .titleBox {
+  margin-top: unset;
+}
+.secItem[class*="sec-partners"] .contentBox .logoItems{
+  width: 100%;
+  align-items: center;
+  flex: 1;
+  display: flex;
+  gap: calc(10px*5/3);
+
+  flex-wrap: wrap;  /* 여러 줄로 나누기 */
+  justify-content: center;
+  min-height: 60px;
+}
+.secItem[class*="sec-partners"] .contentBox .logoItems .logoItem {
+  display: inline-block;
+
+  filter: grayscale(1);
+  background-size: contain;
+  background-position: center;
+  height: 50px;
+  width:calc(100% /3 - 10px);
+  background-repeat: no-repeat;
+}
+.secItem[class*="sec-partners"] .contentBox .logoItems.logo-small .logoItem {
+  width:calc(100% /5 - 10px);
+  max-height: 40px;
+}
+
+.secItem[class*="sec-partners"] .contentBox .logoItems.logo-small {
+
+  gap: calc(10px*5/4);
+}

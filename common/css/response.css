@@ -1,0 +1,316 @@
+
+/* animate */
+body {
+    transition: background-color ease-in .5s;
+
+}
+
+/* response */
+@media only screen and (min-width:1601px) {
+    html{
+        font-size: 13px;
+
+    }
+}
+
+@media only screen and (max-width:1800px) {
+    .swiperIntro .videoBox video{
+        height: 100%;
+        width: auto;
+    }
+}
+@media only screen and (max-width:1200px) {
+
+
+    html {
+        font-size: 12px;
+    }
+
+    
+    footer .topBox{
+        flex-direction: column;
+        gap: 40px;
+    }
+    footer .category{
+        width: 100%;
+        gap: inherit;
+        justify-content: space-between;
+    }
+    footer .category .cateItem{
+        flex: 1;
+    }
+}
+
+
+@media only screen and (min-width:901px) {
+
+    
+    
+    .secItem[class*="sec-point"] > .fp-tableCell,
+    .secItem[class*="sec-detail"] > .fp-tableCell,
+    .secItem[class*="sec-product"] > .fp-tableCell{
+        max-height: calc((var(--vh, 1vh)* 100) - 20px) !important;
+        display: block;
+    }
+    .secItem[class*="sec-product"] .contentBox li h3{
+        min-height: calc(2.6rem * 3); /* 동적으로 계산 */
+
+    }
+}
+
+@media only screen and (max-width:900px) {
+
+    html {
+        font-size: 11px;
+    }
+
+    body[data-lang="en"] h1{ font-size: 2.4rem; line-height:3rem;}
+    body[data-lang="kr"] h1{ font-size: 2.4rem; line-height:3.4rem;}
+    body[data-lang="en"] h2{ font-size: 2.2rem; line-height: 2.6rem;}
+    body[data-lang="kr"] h2{ font-size: 2.2rem; line-height: 2.8rem;}
+
+    body[data-lang="en"] h3 {        font-size: 1.8rem;        line-height: 2rem;    }
+    body[data-lang="kr"] h3 {        font-size: 1.8rem;        line-height: 2.6rem;    }
+    footer .logo{
+        height: 40px;
+    }
+    footer .category{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer .bottomBox{
+        flex-direction: column;
+        gap: 20px;
+        align-items: baseline;
+    }
+    footer .copyright{
+        order: 2;
+    }
+}
+
+
+@media (orientation: landscape )  {
+    @media only screen and (max-height:900px) {
+        .secItem[class*="sec-intro"] > .fp-tableCell > .wrap,
+        .secItem[class*="sec-point"] > .fp-tableCell, .secItem[class*="sec-detail"] > .fp-tableCell, .secItem[class*="sec-product"] > .fp-tableCell{
+            padding-top: calc(63px + 30px);
+        }
+    }
+
+    @media only screen and (max-height:700px) {
+    
+        .secItem[class*="sec-detail"],
+        .secItem[class*="sec-detail"] > .fp-tableCell
+        {
+            height: fit-content !important;     
+            max-height: unset !important;
+        }
+    }
+
+    
+}
+@media (orientation: portrait )  {
+
+    .canvasBox canvas{
+        max-width: 75vh;
+    }
+
+    @media only screen and (min-width:900px) {
+        .fp-tableCell{
+            height: calc(var(--vh, 1vh)* 100) !important;
+        }
+
+    }
+    @media only screen and (max-width:900px) {
+        
+        .canvasBox .canvasWrap {
+            min-height: 80vw;
+        }
+        
+        .secItem[class*="sec-detail"] > .fp-tableCell> .wrap{
+            gap: 0;
+        }
+    }
+    
+}
+
+
+
+@media only screen and (max-width:900px) {
+    .secItem:not(.sec-point, .sec-product, .sec-partners) .fp-tableCell > .wrap{
+        padding: 68px 20px 20px;
+    }
+    
+    .btnLang {
+        
+        position: absolute;
+        top: 17px;
+        right: 60px;
+    }
+    .btnMenu{
+        display: block
+    }
+    header .category{
+        display: none;
+    }
+
+    header > .wrap
+    {
+        padding: 20px;
+    }
+    header .logo {
+        height: 28px;
+        width: 200px;
+    }
+    header .category .cateItem .cateSub{
+        position: unset;
+        z-index: unset;
+        background-color: unset;
+        box-shadow: unset;
+        display: block;
+        padding:0;
+        border-bottom: unset;
+    }
+    body.headerON header .category{
+        gap: 20px;
+        margin-top: 60px;
+        max-height: calc(100% - 44px);
+        overflow-y: auto;
+        justify-content: flex-start;
+    }
+    header .category .cateItem .cateSub ul{
+        gap: 8px;
+    }
+    header .category .cateItem{
+        text-align: left;
+    }
+    header .category .cateItem > *{
+        padding: 0 0 2px;
+        font-weight: bold;
+        width: 100%;
+        border-bottom:1px solid #000
+    }
+    header .category .cateItem .label {
+            opacity: .6;
+            font-size: .8em;
+            font-weight: 500;
+
+    }
+  .secItem[class*="sec-point"] .contentBox li{
+    padding:20px 20px 40px !important;
+    width: 100%;
+  }
+    header .category .cateItem .cateSub ul,
+    .secItem[class*="sec-point"] .contentBox,
+    .secItem[class*="sec-product"] .contentBox{
+        flex-direction: column;
+    }
+    .secItem[class*="sec-product"] .contentBox .iconBox .icon {
+        padding-bottom: 60%;
+    }
+    .secItem[class*="sec-detail"] > .fp-tableCell> .wrap {
+        padding: 0;
+    }
+    .secItem[class*="sec-detail"] .contentBox ul{
+        padding: 12px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    body.fp-viewing-extended header .category .cateItem:nth-child(1), body.fp-viewing-notarization header .category .cateItem:nth-child(2), body.fp-viewing-channel header .category .cateItem:nth-child(3), body.fp-viewing-recovery header .category .cateItem:nth-child(4){
+        border:unset;
+        border-bottom: 2px solid var(--color-primary);
+        padding:0 0 12px ;
+        border-radius: unset;
+    }
+    .canvasBox{
+        position: relative;
+        flex-direction: column;
+        right: unset;
+        top: unset;
+        text-align: center;
+        width: 100%;
+        flex: 1;
+        align-content: center;
+        min-height: 300px;
+        height: fit-content;
+    }
+    .secItem[class*="sec-point"] > .fp-tableCell{
+        padding-top: 100px;
+    }
+    
+    .secItem[class*="sec-detail"],
+    .secItem[class*="sec-detail"] > .fp-tableCell
+    {
+        height: fit-content !important;    
+    }
+    .secItem[class*="sec-intro"] > .fp-tableCell > .wrap{
+        padding: calc(66px + 30px) 20px 30px;
+    }
+    .secItem[class*="sec-intro"] .canvasWrap{
+        flex: 1;
+        height: unset;
+        align-content: center;
+
+    }
+    #visualizer,
+    .sec-intro .titleBox{
+        position: unset;
+        transform: unset;
+        height: unset;
+    }
+    #visualizer{
+        width: 100%;
+    }
+    .secItem[class*="sec-point"] .contentBox .iconBox
+    {
+        width: 100%;
+        position: relative;
+        height: 0;
+        padding-bottom: 60%;
+    }
+    .secItem[class*="sec-point"] .contentBox .iconBox .icon{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .secItem[class*="sec-detail"] .contentBox{
+        width: 100%;
+    }
+    .secItem[class*="sec-detail"] .contentBox ul{
+        margin-top: 20px;
+        padding: 0;
+    }
+    .secItem[class*="sec-detail"] .contentBox ul li{
+        position: unset;
+        margin-top: 8px;
+        padding: 12px;
+        width: 100%;
+        text-align: left;
+    }
+    .secItem[class*="sec-detail"] .titleBox .desc{
+        margin-top: 20px;
+    }
+    .secItem[class*="sec-partners"] .contentBox .logoItems{
+        gap: calc(10px* 2 / 1);
+    }
+    .secItem[class*="sec-partners"] .contentBox .logoItems .logoItem{
+        width: calc(100% / 2 - 10px); 
+        height: 26px;
+    }
+}
+
+
+
+@media only screen and (max-width:600px) {
+    html{
+        font-size: 10px;
+    }
+
+    
+    header .logo {
+        height: 26px;
+    }
+
+
+}
