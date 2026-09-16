@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="기술 문서">
+  <title>머지 및 머클 체인 | GESIA</title>
+  <link rel="icon" href="/common/resources/favicon/favicon.ico">
+  <link rel="stylesheet" href="/common/css/docs.css">
+</head>
+<body class="docs-page">
+  <header class="docs-header">
+    <a class="docs-brand" href="/"><img src="/common/resources/gio-logo.png" alt="GESIA"><span>GESIA</span></a>
+    <div class="docs-header-actions">
+      <a href="/docs/en/" class="language-link">English</a>
+      <a href="/" class="home-link">Main site</a>
+      <button class="nav-toggle" type="button" aria-label="Open document menu" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+  <div class="docs-shell">
+    <aside class="docs-sidebar" id="docs-sidebar">
+      <div class="sidebar-heading"><strong>기술 문서</strong><span>74 pages</span></div>
+      <label class="nav-search-label" for="nav-search">Search pages</label>
+      <input class="nav-search" id="nav-search" type="search" placeholder="Search" autocomplete="off">
+      <nav aria-label="Documentation"><ul class="docs-nav"><li style="--depth:0"><a href="/docs/kr/">개요</a></li>
+<li style="--depth:0"><a href="/docs/kr/background/">배경</a></li>
+<li style="--depth:0"><a href="/docs/kr/service/">서비스</a></li>
+<li style="--depth:1"><a href="/docs/kr/service/carbon-credit-tokenization/">탄소크레딧( 배출권 및 상쇄권) 토큰화</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-credit-tokenization/issuance-and-expansion-of-derivative-tokens-through-voucher/">바우처를 통한 파생토큰 발행 및 확장</a></li>
+<li style="--depth:1"><a href="/docs/kr/service/undefined/">탄소크레딧 거래소</a></li>
+<li style="--depth:1"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/">탄소 배출 계산기 스마트 컨트랙트화</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/paper/">종이 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/car/">자동차 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/beef/">소고기 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/airplane/">비행기 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/water/">수도 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating/">난방 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating-1/">계란 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating-2/">우유 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating-3/">아메리카노 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating-4/">치킨 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating-5/">돼지고기 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating-6/">걷기 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating-7/">자전거 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating-8/">대중교통 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating-9/">기차 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating-10/">전기 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating-11/">휴대폰 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating-12/">유튜브 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/heating-13/">메일 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/undefined/">커피 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/undefined-1/">냉면 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/undefined-2/">치킨 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/undefined-3/">김밥 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/undefined-4/">햄버거 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/undefined-5/">한식(찌개) 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/undefined-6/">한식(탕) 스마트 컨트렉트</a></li>
+<li style="--depth:2"><a href="/docs/kr/service/carbon-emissions-calculator-smart-contracts/undefined-7/">피자 스마트 컨트렉트</a></li>
+<li style="--depth:0"><a href="/docs/kr/techresearch/">기술과 연구</a></li>
+<li style="--depth:1"><a href="/docs/kr/techresearch/consensus/">합의</a></li>
+<li style="--depth:1"><a href="/docs/kr/techresearch/seed/">시드</a></li>
+<li style="--depth:1"><a href="/docs/kr/techresearch/node/">노드</a></li>
+<li style="--depth:1"><a href="/docs/kr/techresearch/undefined/">스마트 컨트랙트</a></li>
+<li style="--depth:1"><a href="/docs/kr/techresearch/token/">토큰</a></li>
+<li style="--depth:1"><a href="/docs/kr/techresearch/undefined-1/">메터데이터</a></li>
+<li style="--depth:1"><a href="/docs/kr/techresearch/auth/">인증</a></li>
+<li style="--depth:1"><a href="/docs/kr/techresearch/oracle/">오라클</a></li>
+<li style="--depth:1"><a href="/docs/kr/techresearch/undefined-2/">브릿지</a></li>
+<li style="--depth:1"><a href="/docs/kr/techresearch/ai/">AI</a></li>
+<li style="--depth:1"><a href="/docs/kr/techresearch/chain/" aria-current="page" class="active">머지 및 머클 체인</a></li>
+<li style="--depth:2"><a href="/docs/kr/techresearch/chain/protocol/">프로토콜</a></li>
+<li style="--depth:3"><a href="/docs/kr/techresearch/chain/protocol/carbon-credit-trading/">탄소 크레딧 거래</a></li>
+<li style="--depth:2"><a href="/docs/kr/techresearch/chain/blocknumber/">블록번호</a></li>
+<li style="--depth:2"><a href="/docs/kr/techresearch/chain/account/">계정</a></li>
+<li style="--depth:2"><a href="/docs/kr/techresearch/chain/undefined/">통합 가스</a></li>
+<li style="--depth:0"><a href="/docs/kr/undefined/">운영</a></li>
+<li style="--depth:1"><a href="/docs/kr/undefined/undefined/">제시아 체인</a></li>
+<li style="--depth:2"><a href="/docs/kr/undefined/undefined/undefined/">빠른 시작</a></li>
+<li style="--depth:3"><a href="/docs/kr/undefined/undefined/undefined/undefined/">노드 시작</a></li>
+<li style="--depth:4"><a href="/docs/kr/undefined/undefined/undefined/undefined/undefined/">계정 생성</a></li>
+<li style="--depth:4"><a href="/docs/kr/undefined/undefined/undefined/undefined/undefined-1/">노드 설치</a></li>
+<li style="--depth:4"><a href="/docs/kr/undefined/undefined/undefined/undefined/undefined-2/">노드 연결</a></li>
+<li style="--depth:4"><a href="/docs/kr/undefined/undefined/undefined/undefined/undefined-3/">명령어 옵션</a></li>
+<li style="--depth:3"><a href="/docs/kr/undefined/undefined/undefined/api-server/">공개 API Server 사용</a></li>
+<li style="--depth:2"><a href="/docs/kr/undefined/undefined/undefined-1/">머지 스테이킹</a></li>
+<li style="--depth:2"><a href="/docs/kr/undefined/undefined/undefined-2/">스마트 컨트랙트 브릿지</a></li>
+<li style="--depth:0"><a href="/docs/kr/tokenomics/">토큰 경제</a></li>
+<li style="--depth:0"><a href="/docs/kr/undefined-1/">참여 멤버</a></li>
+<li style="--depth:1"><a href="/docs/kr/undefined-1/gec/">GEC 참여자</a></li>
+<li style="--depth:1"><a href="/docs/kr/undefined-1/gesia-platform-bvi/">Gesia Platform(BVI) 참여자</a></li>
+<li style="--depth:1"><a href="/docs/kr/undefined-1/gesia-platform/">Gesia Platform 참여자</a></li>
+<li style="--depth:1"><a href="/docs/kr/undefined-1/oracle-node/">Oracle Node 참여자</a></li>
+<li style="--depth:1"><a href="/docs/kr/undefined-1/undefined/">고문 참여자</a></li>
+<li style="--depth:0"><a href="/docs/kr/undefined-2/">파트너</a></li>
+<li style="--depth:0"><a href="/docs/kr/undefined-3/">로드맵</a></li>
+<li style="--depth:1"><a href="/docs/kr/undefined-3/undefined/">비지니스</a></li>
+<li style="--depth:1"><a href="/docs/kr/undefined-3/undefined-1/">제시아체인</a></li>
+<li style="--depth:1"><a href="/docs/kr/undefined-3/undefined-2/">넷제로 히어로즈</a></li></ul></nav>
+    </aside>
+    <main class="docs-main">
+      <div class="source-note">Recovered from the company&rsquo;s original published documentation.</div>
+      <h1>머지 및 머클 체인</h1>
+      <article class="doc-content"><div class="flex flex-col [&amp;&gt;*+*]:mt-5 whitespace-pre-wrap"><div class="decoration-primary/6 max-w-3xl layout-wide:max-w-6xl mx-auto print:break-inside-avoid flex w-full justify-center"><div class="flex flex-row gap-3"><div class="relative overflow-hidden"><picture><div class="relative overflow-hidden after:block after:absolute after:-inset-0 after:pointer-events-none w-fit mx-auto"><img alt="" height="564" loading="lazy" src="/common/resources/recovered-docs/f64880dc3b3e277bbef0.png" width="920"/></div><figcaption>[ 제시아체인 3 티어 머지 및 머클 네트워크 구성 ]</figcaption></picture></div></div></div><p>제시아 체인은 머지와 머클의 조합으로 구성되어 있으며, 특히 <span><span><strong>" 3 티어 머클( Three-Tier Merkle ) "</strong></span></span> 시스템을 도입하고 있습니다. 이 시스템은 <strong>" </strong><span><span><strong>탄소 배출머클</strong></span></span><strong>, </strong><span><span><strong>상쇄머클</strong></span></span><strong>, </strong><span><span><strong>중립머클</strong></span></span><strong> "</strong>로 구성되며, 각 머클은 계층형 네트워크 구조를 가지고 있습니다. 이 구조는 3층 빌딩형태와 유사하게 설계되었으며, 각 계층 간의 통신은 합의 메커니즘에 의해 이루어집니다.</p><p>각 계층 간의 통신은<span><span> <strong>"라우터 노드 시스템( ROUTER NODE SYSTEM )"</strong></span></span> 메커니즘을 통해 이루어집니다. 이 시스템은 메시지를 전달하는 계층 네트워크(L2)와 메시지를 받는 계층 네트워크(L1)로 구분됩니다.</p><div class="decoration-primary/6 max-w-3xl layout-wide:max-w-6xl mx-auto print:break-inside-avoid flex w-full justify-center"><div class="flex flex-row gap-3"><div class="relative overflow-hidden"><picture><div class="relative overflow-hidden after:block after:absolute after:-inset-0 after:pointer-events-none w-fit mx-auto"><img alt="" height="90" loading="lazy" src="/common/resources/recovered-docs/c7747aef31eb32fdc069.png" width="911"/></div><figcaption>[ 각 계층 검증자 선출 단계 ]</figcaption></picture></div></div></div><p>이 기술은 <span><a href="https://eth2book.info/capella/part2/building_blocks/" rel="noopener noreferrer" target="_blank"><strong>이더리움 2.0의 블록 생성 기술</strong></a></span>을 활용합니다. 서로 다른 계층의 네트워크 간 통신 검증 및 증명 과정은 위의 그림에 설명된 바와 같습니다.</p><p>중립 머클에는 " <strong>제너시스 노드 시스템(GENESIS NODE SYSTEM) "</strong> 메커니즘이 포함되어 있어, 이는 체인 내에서 작동하는 지갑의 한 형태로 사용됩니다. 기존 블록체인 시스템에서는<strong> </strong><span><a href="/docs/kr/techresearch/chain/account/#externally-owned-accounts-eoa"><strong>외부 소유 계정( EOA)</strong></a></span>과 <!-- --><span><a href="/docs/kr/techresearch/chain/account/#contract-accounts-ca"><strong>계약 계정(CA)</strong></a></span>으로 구분되는 것이 일반적이었습니다. 그러나 이제 우리는<strong> </strong><span><a href="/docs/kr/techresearch/chain/account/#internally-owned-accounts-ioa"><strong>내부 소유 계정(IOA)</strong></a></span><strong> </strong>과 <!-- --><span><a href="/docs/kr/techresearch/chain/account/#notary-accounts-na"><strong>공증 계정 (NA)</strong></a></span> 이라는 새로운 유형의 계정을 도입하고 있습니다.<!-- --></p><p>이 기술은 오라클 노드사의 <strong>" 체인AI "</strong> 기술을 사용하여, 블록체인의 데이터 검증 및 처리 과정에 인공지능을 활용함을 제공합니다.</p></div></article>
+      <nav class="pager" aria-label="Previous and next pages"><a class="pager-link previous" href="/docs/kr/techresearch/ai/"><span>Previous</span><strong>AI</strong></a><a class="pager-link next" href="/docs/kr/techresearch/chain/protocol/"><span>Next</span><strong>프로토콜</strong></a></nav>
+      <footer class="docs-footer">GESIA Platform documentation &middot; Restored 2026</footer>
+    </main>
+  </div>
+  <script src="/common/js/docs.js"></script>
+</body>
+</html>

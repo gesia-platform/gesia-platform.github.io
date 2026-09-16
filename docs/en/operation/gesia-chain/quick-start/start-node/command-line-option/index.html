@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Documentation">
+  <title>Command-line Option | GESIA</title>
+  <link rel="icon" href="/common/resources/favicon/favicon.ico">
+  <link rel="stylesheet" href="/common/css/docs.css">
+</head>
+<body class="docs-page">
+  <header class="docs-header">
+    <a class="docs-brand" href="/"><img src="/common/resources/gio-logo.png" alt="GESIA"><span>GESIA</span></a>
+    <div class="docs-header-actions">
+      <a href="/docs/kr/" class="language-link">한국어</a>
+      <a href="/" class="home-link">Main site</a>
+      <button class="nav-toggle" type="button" aria-label="Open document menu" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+  <div class="docs-shell">
+    <aside class="docs-sidebar" id="docs-sidebar">
+      <div class="sidebar-heading"><strong>Documentation</strong><span>90 pages</span></div>
+      <label class="nav-search-label" for="nav-search">Search pages</label>
+      <input class="nav-search" id="nav-search" type="search" placeholder="Search" autocomplete="off">
+      <nav aria-label="Documentation"><ul class="docs-nav"><li style="--depth:0"><a href="/docs/en/">Introduction</a></li>
+<li style="--depth:0"><a href="/docs/en/background/">Background</a></li>
+<li style="--depth:0"><a href="/docs/en/service/">Service</a></li>
+<li style="--depth:1"><a href="/docs/en/service/tokenization-of-carbon-credits-emission-rights-and-offset-credits/">Tokenization of Carbon Credits (Emission Rights and Offset Credits)</a></li>
+<li style="--depth:2"><a href="/docs/en/service/tokenization-of-carbon-credits-emission-rights-and-offset-credits/voucher-token-issuance/">Voucher Token Issuance</a></li>
+<li style="--depth:2"><a href="/docs/en/service/tokenization-of-carbon-credits-emission-rights-and-offset-credits/derivative-token-issuance-through-vouchers/">Derivative Token Issuance through Vouchers</a></li>
+<li style="--depth:1"><a href="/docs/en/service/carbon-credit-emission-rights-and-offset-credits-brokerage/">Carbon Credit (Emission Rights and Offset Credits) Brokerage</a></li>
+<li style="--depth:1"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/">Carbon Calculator Smart Contract Implementation</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/paper-smart-contract/">Paper Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/car-smart-contract/">Car Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/beef-smart-contract/">Beef Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/airplane-smart-contract/">Airplane Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/water-smart-contract/">Water Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/heating-smart-contract/">Heating Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/egg-smart-contract/">Egg Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/milk-smart-contract/">Milk Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/americano-smart-contract/">Americano Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/chicken-smart-contract/">Chicken Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/pork-smart-contract/">Pork Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/walk-smart-contract/">Walk Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/bicycle-smart-contract/">Bicycle Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/public-transport-smart-contract/">Public Transport Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/train-smart-contract/">Train Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/electricity-smart-contract/">Electricity Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/phone-smart-contract/">Phone Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/youtube-smart-contract/">Youtube Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/mail-smart-contract/">Mail Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/coffee-smart-contract/">Coffee Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/cold-noodle-smart-contract/">Cold Noodle Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/fried-chicken-smart-contract/">Fried Chicken Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/gimbap-smart-contract/">Gimbap Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/hamburger-smart-contract/">Hamburger Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/korean-soup-smart-contract/">Korean Soup Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/korean-stew-smart-contract/">Korean Stew Smart Contract</a></li>
+<li style="--depth:2"><a href="/docs/en/service/carbon-calculator-smart-contract-implementation/pizza-smart-contract/">Pizza Smart Contract</a></li>
+<li style="--depth:1"><a href="/docs/en/service/point-donation-system/">Point Donation System</a></li>
+<li style="--depth:1"><a href="/docs/en/service/green-activity-certification/">Green Activity Certification</a></li>
+<li style="--depth:0"><a href="/docs/en/techresearch/">Technology and Research</a></li>
+<li style="--depth:1"><a href="/docs/en/techresearch/consensus/">Consensus</a></li>
+<li style="--depth:1"><a href="/docs/en/techresearch/seed/">Seed</a></li>
+<li style="--depth:1"><a href="/docs/en/techresearch/node/">Node</a></li>
+<li style="--depth:1"><a href="/docs/en/techresearch/smart-contract/">Smart Contract</a></li>
+<li style="--depth:1"><a href="/docs/en/techresearch/token/">Token</a></li>
+<li style="--depth:1"><a href="/docs/en/techresearch/meta-data/">Meta Data</a></li>
+<li style="--depth:1"><a href="/docs/en/techresearch/auth/">Auth</a></li>
+<li style="--depth:1"><a href="/docs/en/techresearch/oracle/">Oracle</a></li>
+<li style="--depth:1"><a href="/docs/en/techresearch/bridge/">Bridge</a></li>
+<li style="--depth:1"><a href="/docs/en/techresearch/gesia-chain/">GESIA Chain</a></li>
+<li style="--depth:2"><a href="/docs/en/techresearch/gesia-chain/merge/">Merge</a></li>
+<li style="--depth:3"><a href="/docs/en/techresearch/gesia-chain/merge/carbon-emission-data-merge/">Carbon Emission Data Merge</a></li>
+<li style="--depth:3"><a href="/docs/en/techresearch/gesia-chain/merge/carbon-credit-emission-rights-and-offset-credits-data-merge/">Carbon Credit (Emission Rights and Offset Credits) Data Merge</a></li>
+<li style="--depth:2"><a href="/docs/en/techresearch/gesia-chain/merkle/">Merkle</a></li>
+<li style="--depth:3"><a href="/docs/en/techresearch/gesia-chain/merkle/carbon-emission-merkle/">Carbon Emission Merkle</a></li>
+<li style="--depth:3"><a href="/docs/en/techresearch/gesia-chain/merkle/carbon-credit-emission-rights-and-offset-credits-merkle/">Carbon Credit (Emission Rights and Offset Credits) Merkle</a></li>
+<li style="--depth:3"><a href="/docs/en/techresearch/gesia-chain/merkle/carbon-neutral-merkle/">Carbon Neutral Merkle</a></li>
+<li style="--depth:2"><a href="/docs/en/techresearch/gesia-chain/protocol/">Protocol</a></li>
+<li style="--depth:3"><a href="/docs/en/techresearch/gesia-chain/protocol/carbon-credit-trading/">Carbon credit trading</a></li>
+<li style="--depth:3"><a href="/docs/en/techresearch/gesia-chain/protocol/carbon-neutral-merge/">Carbon neutral merge</a></li>
+<li style="--depth:4"><a href="/docs/en/techresearch/gesia-chain/protocol/carbon-neutral-merge/donation-dao/">Donation DAO</a></li>
+<li style="--depth:4"><a href="/docs/en/techresearch/gesia-chain/protocol/carbon-neutral-merge/burn-dao/">Burn DAO</a></li>
+<li style="--depth:2"><a href="/docs/en/techresearch/gesia-chain/net-zero-consensus/">Net Zero Consensus</a></li>
+<li style="--depth:2"><a href="/docs/en/techresearch/gesia-chain/block-number/">Block number</a></li>
+<li style="--depth:2"><a href="/docs/en/techresearch/gesia-chain/account/">Account</a></li>
+<li style="--depth:2"><a href="/docs/en/techresearch/gesia-chain/authentication-notarization/">Authentication/Notarization</a></li>
+<li style="--depth:2"><a href="/docs/en/techresearch/gesia-chain/integrated-nonce/">Integrated nonce</a></li>
+<li style="--depth:2"><a href="/docs/en/techresearch/gesia-chain/integrated-gas/">Integrated gas</a></li>
+<li style="--depth:1"><a href="/docs/en/techresearch/ai/">AI</a></li>
+<li style="--depth:0"><a href="/docs/en/operation/">Operation</a></li>
+<li style="--depth:1"><a href="/docs/en/operation/gesia-chain/">GESIA Chain</a></li>
+<li style="--depth:2"><a href="/docs/en/operation/gesia-chain/quick-start/">Quick Start</a></li>
+<li style="--depth:3"><a href="/docs/en/operation/gesia-chain/quick-start/start-node/">Start Node</a></li>
+<li style="--depth:4"><a href="/docs/en/operation/gesia-chain/quick-start/start-node/account/">Account</a></li>
+<li style="--depth:4"><a href="/docs/en/operation/gesia-chain/quick-start/start-node/node-install/">Node Install</a></li>
+<li style="--depth:4"><a href="/docs/en/operation/gesia-chain/quick-start/start-node/node-connect/">Node Connect</a></li>
+<li style="--depth:4"><a href="/docs/en/operation/gesia-chain/quick-start/start-node/command-line-option/" aria-current="page" class="active">Command-line Option</a></li>
+<li style="--depth:2"><a href="/docs/en/operation/gesia-chain/use-public-api-server-rpc/">Use Public API Server(RPC)</a></li>
+<li style="--depth:2"><a href="/docs/en/operation/gesia-chain/merge-staking/">Merge Staking</a></li>
+<li style="--depth:2"><a href="/docs/en/operation/gesia-chain/smart-contract-bridge/">Smart Contract Bridge</a></li>
+<li style="--depth:0"><a href="/docs/en/tokenomics/">Token Economy</a></li>
+<li style="--depth:0"><a href="/docs/en/participants/">Participants</a></li>
+<li style="--depth:1"><a href="/docs/en/participants/gec-participants/">GEC Participants</a></li>
+<li style="--depth:1"><a href="/docs/en/participants/gesia-platform-bvi-participants/">Gesia Platform(BVI) Participants</a></li>
+<li style="--depth:1"><a href="/docs/en/participants/gesia-platform-participants/">Gesia Platform Participants</a></li>
+<li style="--depth:1"><a href="/docs/en/participants/oracle-node-participants/">Oracle Node Participants</a></li>
+<li style="--depth:1"><a href="/docs/en/participants/advisory-participants/">Advisory Participants</a></li>
+<li style="--depth:0"><a href="/docs/en/partner/">Partner</a></li>
+<li style="--depth:0"><a href="/docs/en/roadmap/">Roadmap</a></li>
+<li style="--depth:1"><a href="/docs/en/roadmap/business/">Business</a></li>
+<li style="--depth:1"><a href="/docs/en/roadmap/gesia-chain/">Gesia Chain</a></li>
+<li style="--depth:1"><a href="/docs/en/roadmap/net-zero-heroes/">Net Zero Heroes</a></li></ul></nav>
+    </aside>
+    <main class="docs-main">
+      <div class="source-note">Recovered from the company&rsquo;s original published documentation.</div>
+      <h1>Command-line Option</h1>
+      <article class="doc-content"><div class="flex flex-col [&amp;&gt;*+*]:mt-5 whitespace-pre-wrap"><div class="group/codeblock shiki relative flex shrink flex-col overflow-hidden print:overflow-visible circular-corners:rounded-2xl rounded-corners:rounded-xl straight-corners:rounded-xs [&amp;:has([data-codeblock-focus]:focus)]:ring-2 [&amp;:has([data-codeblock-focus]:focus)]:ring-primary-hover decoration-primary/6 max-w-3xl layout-wide:max-w-6xl mx-auto w-full print:break-inside-avoid"><span></span><div class="flex items-center justify-start gap-2 text-sm"></div><div class="relative flex min-h-0 flex-col"><div class="absolute right-2 z-2 flex items-center gap-1.5 font-sans leading-none opacity-0 group-hover/codeblock:opacity-11 has-[button:focus-visible]:opacity-11 top-2"></div><pre><code class="table max-h-full w-fit min-w-full [counter-reset:line] print:max-h-none print:whitespace-pre-wrap [[aria-expanded=false]_&amp;]:mask-b-from-50%"><span><span>NAME:<!-- -->
+</span></span><span><span>   geth - the go-ethereum command line interface<!-- -->
+</span></span><span><span>
+</span></span><span><span>USAGE:<!-- -->
+</span></span><span><span>   geth [global options] command [command options] [arguments...]<!-- -->
+</span></span><span><span>
+</span></span><span><span>VERSION:<!-- -->
+</span></span><span><span>   1.13.1-stable-3f40e65c<!-- -->
+</span></span><span><span>
+</span></span><span><span>COMMANDS:<!-- -->
+</span></span><span><span>   account                Manage accounts<!-- -->
+</span></span><span><span>   attach                 Start an interactive JavaScript environment (connect to node)<!-- -->
+</span></span><span><span>   console                Start an interactive JavaScript environment<!-- -->
+</span></span><span><span>   db                     Low level database operations<!-- -->
+</span></span><span><span>   dump                   Dump a specific block from storage<!-- -->
+</span></span><span><span>   dumpconfig             Export configuration values in a TOML format<!-- -->
+</span></span><span><span>   dumpgenesis            Dumps genesis block JSON configuration to stdout<!-- -->
+</span></span><span><span>   export                 Export blockchain into file<!-- -->
+</span></span><span><span>   export-preimages       Export the preimage database into an RLP stream<!-- -->
+</span></span><span><span>   import                 Import a blockchain file<!-- -->
+</span></span><span><span>   import-preimages       Import the preimage database from an RLP stream<!-- -->
+</span></span><span><span>   init                   Bootstrap and initialize a new genesis block<!-- -->
+</span></span><span><span>   js                     (DEPRECATED) Execute the specified JavaScript files<!-- -->
+</span></span><span><span>   license                Display license information<!-- -->
+</span></span><span><span>   removedb               Remove blockchain and state databases<!-- -->
+</span></span><span><span>   show-deprecated-flags  Show flags that have been deprecated<!-- -->
+</span></span><span><span>   snapshot               A set of commands based on the snapshot<!-- -->
+</span></span><span><span>   verkle                 A set of experimental verkle tree management commands<!-- -->
+</span></span><span><span>   version                Print version numbers<!-- -->
+</span></span><span><span>   version-check          Checks (online) for known Geth security vulnerabilities<!-- -->
+</span></span><span><span>   wallet                 Manage Ethereum presale wallets<!-- -->
+</span></span><span><span>   help, h                Shows a list of commands or help for one command<!-- -->
+</span></span><span><span>
+</span></span><span><span>GLOBAL OPTIONS:<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --log.rotate                        (default: false)                   ($GETH_LOG_ROTATE)<!-- -->
+</span></span><span><span>          Enables log file rotation<!-- -->
+</span></span><span><span>
+</span></span><span><span>   ACCOUNT<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --allow-insecure-unlock             (default: false)                   ($GETH_ALLOW_INSECURE_UNLOCK)<!-- -->
+</span></span><span><span>          Allow insecure account unlocking when account-related RPCs are exposed by http<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --keystore value                                                       ($GETH_KEYSTORE)<!-- -->
+</span></span><span><span>          Directory for the keystore (default = inside the datadir)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --lightkdf                          (default: false)                   ($GETH_LIGHTKDF)<!-- -->
+</span></span><span><span>          Reduce key-derivation RAM &amp; CPU usage at some expense of KDF strength<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --password value                                                       ($GETH_PASSWORD)<!-- -->
+</span></span><span><span>          Password file to use for non-interactive password input<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --pcscdpath value                   (default: "/run/pcscd/pcscd.comm") ($GETH_PCSCDPATH)<!-- -->
+</span></span><span><span>          Path to the smartcard daemon (pcscd) socket file<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --signer value                                                         ($GETH_SIGNER)<!-- -->
+</span></span><span><span>          External signer (url or path to ipc file)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --unlock value                                                         ($GETH_UNLOCK)<!-- -->
+</span></span><span><span>          Comma separated list of accounts to unlock<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --usb                               (default: false)                   ($GETH_USB)<!-- -->
+</span></span><span><span>          Enable monitoring and management of USB hardware wallets<!-- -->
+</span></span><span><span>
+</span></span><span><span>   ALIASED (deprecated)<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --cache.trie.journal value                                             ($GETH_CACHE_TRIE_JOURNAL)<!-- -->
+</span></span><span><span>          Disk journal directory for trie cache to survive node restarts<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --cache.trie.rejournal value        (default: 0s)                      ($GETH_CACHE_TRIE_REJOURNAL)<!-- -->
+</span></span><span><span>          Time interval to regenerate the trie cache journal<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --nousb                             (default: false)                   ($GETH_NOUSB)<!-- -->
+</span></span><span><span>          Disables monitoring for and managing USB hardware wallets (deprecated)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --txlookuplimit value               (default: 2350000)                 ($GETH_TXLOOKUPLIMIT)<!-- -->
+</span></span><span><span>          Number of recent blocks to maintain transactions index for (default = about one<!-- -->
+</span></span><span><span>          year, 0 = entire chain) (deprecated, use history.transactions instead)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --v5disc                            (default: false)                   ($GETH_V5DISC)<!-- -->
+</span></span><span><span>          Enables the experimental RLPx V5 (Topic Discovery) mechanism (deprecated, use<!-- -->
+</span></span><span><span>          --discv5 instead)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --whitelist value                                                      ($GETH_WHITELIST)<!-- -->
+</span></span><span><span>          Comma separated block number-to-hash mappings to enforce (&lt;number&gt;=&lt;hash&gt;)<!-- -->
+</span></span><span><span>          (deprecated in favor of --eth.requiredblocks)<!-- -->
+</span></span><span><span>
+</span></span><span><span>   API AND CONSOLE<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --authrpc.addr value                (default: "localhost")             ($GETH_AUTHRPC_ADDR)<!-- -->
+</span></span><span><span>          Listening address for authenticated APIs<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --authrpc.jwtsecret value                                              ($GETH_AUTHRPC_JWTSECRET)<!-- -->
+</span></span><span><span>          Path to a JWT secret to use for authenticated RPC endpoints<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --authrpc.port value                (default: 8551)                    ($GETH_AUTHRPC_PORT)<!-- -->
+</span></span><span><span>          Listening port for authenticated APIs<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --authrpc.vhosts value              (default: "localhost")             ($GETH_AUTHRPC_VHOSTS)<!-- -->
+</span></span><span><span>          Comma separated list of virtual hostnames from which to accept requests (server<!-- -->
+</span></span><span><span>          enforced). Accepts '*' wildcard.<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --exec value                                                           ($GETH_EXEC)<!-- -->
+</span></span><span><span>          Execute JavaScript statement<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --graphql                           (default: false)                   ($GETH_GRAPHQL)<!-- -->
+</span></span><span><span>          Enable GraphQL on the HTTP-RPC server. Note that GraphQL can only be started if<!-- -->
+</span></span><span><span>          an HTTP server is started as well.<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --graphql.corsdomain value                                             ($GETH_GRAPHQL_CORSDOMAIN)<!-- -->
+</span></span><span><span>          Comma separated list of domains from which to accept cross origin requests<!-- -->
+</span></span><span><span>          (browser enforced)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --graphql.vhosts value              (default: "localhost")             ($GETH_GRAPHQL_VHOSTS)<!-- -->
+</span></span><span><span>          Comma separated list of virtual hostnames from which to accept requests (server<!-- -->
+</span></span><span><span>          enforced). Accepts '*' wildcard.<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --header value, -H value<!-- -->
+</span></span><span><span>          Pass custom headers to the RPC server when using --remotedb or the geth attach<!-- -->
+</span></span><span><span>          console. This flag can be given multiple times.<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --http                              (default: false)                   ($GETH_HTTP)<!-- -->
+</span></span><span><span>          Enable the HTTP-RPC server<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --http.addr value                   (default: "localhost")             ($GETH_HTTP_ADDR)<!-- -->
+</span></span><span><span>          HTTP-RPC server listening interface<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --http.api value                                                       ($GETH_HTTP_API)<!-- -->
+</span></span><span><span>          API's offered over the HTTP-RPC interface<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --http.corsdomain value                                                ($GETH_HTTP_CORSDOMAIN)<!-- -->
+</span></span><span><span>          Comma separated list of domains from which to accept cross origin requests<!-- -->
+</span></span><span><span>          (browser enforced)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --http.port value                   (default: 8545)                    ($GETH_HTTP_PORT)<!-- -->
+</span></span><span><span>          HTTP-RPC server listening port<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --http.rpcprefix value                                                 ($GETH_HTTP_RPCPREFIX)<!-- -->
+</span></span><span><span>          HTTP path path prefix on which JSON-RPC is served. Use '/' to serve on all<!-- -->
+</span></span><span><span>          paths.<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --http.vhosts value                 (default: "localhost")             ($GETH_HTTP_VHOSTS)<!-- -->
+</span></span><span><span>          Comma separated list of virtual hostnames from which to accept requests (server<!-- -->
+</span></span><span><span>          enforced). Accepts '*' wildcard.<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --ipcdisable                        (default: false)                   ($GETH_IPCDISABLE)<!-- -->
+</span></span><span><span>          Disable the IPC-RPC server<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --ipcpath value                                                        ($GETH_IPCPATH)<!-- -->
+</span></span><span><span>          Filename for IPC socket/pipe within the datadir (explicit paths escape it)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --jspath value                      (default: .)                       ($GETH_JSPATH)<!-- -->
+</span></span><span><span>          JavaScript root path for `loadScript`<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --preload value                                                        ($GETH_PRELOAD)<!-- -->
+</span></span><span><span>          Comma separated list of JavaScript files to preload into the console<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --rpc.allow-unprotected-txs         (default: false)                   ($GETH_RPC_ALLOW_UNPROTECTED_TXS)<!-- -->
+</span></span><span><span>          Allow for unprotected (non EIP155 signed) transactions to be submitted via RPC<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --rpc.batch-request-limit value     (default: 1000)                    ($GETH_RPC_BATCH_REQUEST_LIMIT)<!-- -->
+</span></span><span><span>          Maximum number of requests in a batch<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --rpc.batch-response-max-size value (default: 25000000)                ($GETH_RPC_BATCH_RESPONSE_MAX_SIZE)<!-- -->
+</span></span><span><span>          Maximum number of bytes returned from a batched call<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --rpc.enabledeprecatedpersonal      (default: false)                   ($GETH_RPC_ENABLEDEPRECATEDPERSONAL)<!-- -->
+</span></span><span><span>          Enables the (deprecated) personal namespace<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --rpc.evmtimeout value              (default: 5s)                      ($GETH_RPC_EVMTIMEOUT)<!-- -->
+</span></span><span><span>          Sets a timeout used for eth_call (0=infinite)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --rpc.gascap value                  (default: 50000000)                ($GETH_RPC_GASCAP)<!-- -->
+</span></span><span><span>          Sets a cap on gas that can be used in eth_call/estimateGas (0=infinite)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --rpc.txfeecap value                (default: 1)<!-- -->
+</span></span><span><span>          Sets a cap on transaction fee (in ether) that can be sent via the RPC APIs (0 =<!-- -->
+</span></span><span><span>          no cap)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --ws                                (default: false)                   ($GETH_WS)<!-- -->
+</span></span><span><span>          Enable the WS-RPC server<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --ws.addr value                     (default: "localhost")             ($GETH_WS_ADDR)<!-- -->
+</span></span><span><span>          WS-RPC server listening interface<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --ws.api value                                                         ($GETH_WS_API)<!-- -->
+</span></span><span><span>          API's offered over the WS-RPC interface<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --ws.origins value                                                     ($GETH_WS_ORIGINS)<!-- -->
+</span></span><span><span>          Origins from which to accept websockets requests<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --ws.port value                     (default: 8546)                    ($GETH_WS_PORT)<!-- -->
+</span></span><span><span>          WS-RPC server listening port<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --ws.rpcprefix value                                                   ($GETH_WS_RPCPREFIX)<!-- -->
+</span></span><span><span>          HTTP path prefix on which JSON-RPC is served. Use '/' to serve on all paths.<!-- -->
+</span></span><span><span>
+</span></span><span><span>   DEVELOPER CHAIN<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --dev                               (default: false)                   ($GETH_DEV)<!-- -->
+</span></span><span><span>          Ephemeral proof-of-authority network with a pre-funded developer account, mining<!-- -->
+</span></span><span><span>          enabled<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --dev.gaslimit value                (default: 11500000)                ($GETH_DEV_GASLIMIT)<!-- -->
+</span></span><span><span>          Initial block gas limit<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --dev.period value                  (default: 0)                       ($GETH_DEV_PERIOD)<!-- -->
+</span></span><span><span>          Block period to use in developer mode (0 = mine only if transaction pending)<!-- -->
+</span></span><span><span>
+</span></span><span><span>   ETHEREUM<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --bloomfilter.size value            (default: 2048)                    ($GETH_BLOOMFILTER_SIZE)<!-- -->
+</span></span><span><span>          Megabytes of memory allocated to bloom-filter for pruning<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --config value                                                         ($GETH_CONFIG)<!-- -->
+</span></span><span><span>          TOML configuration file<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --datadir value                     (default: /root/.ethereum)         ($GETH_DATADIR)<!-- -->
+</span></span><span><span>          Data directory for the databases and keystore<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --datadir.ancient value                                                ($GETH_DATADIR_ANCIENT)<!-- -->
+</span></span><span><span>          Root directory for ancient data (default = inside chaindata)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --datadir.minfreedisk value                                            ($GETH_DATADIR_MINFREEDISK)<!-- -->
+</span></span><span><span>          Minimum free disk space in MB, once reached triggers auto shut down (default =<!-- -->
+</span></span><span><span>          --cache.gc converted to MB, 0 = disabled)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --db.engine value                                                      ($GETH_DB_ENGINE)<!-- -->
+</span></span><span><span>          Backing database implementation to use ('pebble' or 'leveldb')<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --eth.requiredblocks value                                             ($GETH_ETH_REQUIREDBLOCKS)<!-- -->
+</span></span><span><span>          Comma separated block number-to-hash mappings to require for peering<!-- -->
+</span></span><span><span>          (&lt;number&gt;=&lt;hash&gt;)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --exitwhensynced                    (default: false)                   ($GETH_EXITWHENSYNCED)<!-- -->
+</span></span><span><span>          Exits after block synchronisation completes<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --goerli                            (default: false)                   ($GETH_GOERLI)<!-- -->
+</span></span><span><span>          Görli network: pre-configured proof-of-authority test network<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --holesky                           (default: false)                   ($GETH_HOLESKY)<!-- -->
+</span></span><span><span>          Holesky network: pre-configured proof-of-stake test network<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --mainnet                           (default: false)                   ($GETH_MAINNET)<!-- -->
+</span></span><span><span>          Ethereum mainnet<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --networkid value                   (default: 1)                       ($GETH_NETWORKID)<!-- -->
+</span></span><span><span>          Explicitly set network id (integer)(For testnets: use --goerli, --sepolia,<!-- -->
+</span></span><span><span>          --holesky instead)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --override.cancun value             (default: 0)                       ($GETH_OVERRIDE_CANCUN)<!-- -->
+</span></span><span><span>          Manually specify the Cancun fork timestamp, overriding the bundled setting<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --override.verkle value             (default: 0)                       ($GETH_OVERRIDE_VERKLE)<!-- -->
+</span></span><span><span>          Manually specify the Verkle fork timestamp, overriding the bundled setting<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --sepolia                           (default: false)                   ($GETH_SEPOLIA)<!-- -->
+</span></span><span><span>          Sepolia network: pre-configured proof-of-work test network<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --snapshot                          (default: true)                    ($GETH_SNAPSHOT)<!-- -->
+</span></span><span><span>          Enables snapshot-database mode (default = enable)<!-- -->
+</span></span><span><span>
+</span></span><span><span>   GAS PRICE ORACLE<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --gpo.blocks value                  (default: 20)                      ($GETH_GPO_BLOCKS)<!-- -->
+</span></span><span><span>          Number of recent blocks to check for gas prices<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --gpo.ignoreprice value             (default: 2)<!-- -->
+</span></span><span><span>          Gas price below which gpo will ignore transactions<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --gpo.maxprice value                (default: 500000000000)<!-- -->
+</span></span><span><span>          Maximum transaction priority fee (or gasprice before London fork) to be<!-- -->
+</span></span><span><span>          recommended by gpo<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --gpo.percentile value              (default: 60)                      ($GETH_GPO_PERCENTILE)<!-- -->
+</span></span><span><span>          Suggested gas price is the given percentile of a set of recent transaction gas<!-- -->
+</span></span><span><span>          prices<!-- -->
+</span></span><span><span>
+</span></span><span><span>   LIGHT CLIENT<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --light.egress value                (default: 0)                       ($GETH_LIGHT_EGRESS)<!-- -->
+</span></span><span><span>          Outgoing bandwidth limit for serving light clients (kilobytes/sec, 0 =<!-- -->
+</span></span><span><span>          unlimited)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --light.ingress value               (default: 0)                       ($GETH_LIGHT_INGRESS)<!-- -->
+</span></span><span><span>          Incoming bandwidth limit for serving light clients (kilobytes/sec, 0 =<!-- -->
+</span></span><span><span>          unlimited)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --light.maxpeers value              (default: 100)                     ($GETH_LIGHT_MAXPEERS)<!-- -->
+</span></span><span><span>          Maximum number of light clients to serve, or light servers to attach to<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --light.nopruning                   (default: false)                   ($GETH_LIGHT_NOPRUNING)<!-- -->
+</span></span><span><span>          Disable ancient light chain data pruning<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --light.nosyncserve                 (default: false)                   ($GETH_LIGHT_NOSYNCSERVE)<!-- -->
+</span></span><span><span>          Enables serving light clients before syncing<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --light.serve value                 (default: 0)                       ($GETH_LIGHT_SERVE)<!-- -->
+</span></span><span><span>          Maximum percentage of time allowed for serving LES requests (multi-threaded<!-- -->
+</span></span><span><span>          processing allows values over 100)<!-- -->
+</span></span><span><span>
+</span></span><span><span>   LOGGING AND DEBUGGING<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --log.backtrace value                                                  ($GETH_LOG_BACKTRACE)<!-- -->
+</span></span><span><span>          Request a stack trace at a specific logging statement (e.g. "block.go:271")<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --log.compress                      (default: false)                   ($GETH_LOG_COMPRESS)<!-- -->
+</span></span><span><span>          Compress the log files<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --log.debug                         (default: false)                   ($GETH_LOG_DEBUG)<!-- -->
+</span></span><span><span>          Prepends log messages with call-site location (file and line number)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --log.file value                                                       ($GETH_LOG_FILE)<!-- -->
+</span></span><span><span>          Write logs to a file<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --log.format value                                                     ($GETH_LOG_FORMAT)<!-- -->
+</span></span><span><span>          Log format to use (json|logfmt|terminal)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --log.maxage value                  (default: 30)                      ($GETH_LOG_MAXAGE)<!-- -->
+</span></span><span><span>          Maximum number of days to retain a log file<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --log.maxbackups value              (default: 10)                      ($GETH_LOG_MAXBACKUPS)<!-- -->
+</span></span><span><span>          Maximum number of log files to retain<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --log.maxsize value                 (default: 100)                     ($GETH_LOG_MAXSIZE)<!-- -->
+</span></span><span><span>          Maximum size in MBs of a single log file<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --log.vmodule value                                                    ($GETH_LOG_VMODULE)<!-- -->
+</span></span><span><span>          Per-module verbosity: comma-separated list of &lt;pattern&gt;=&lt;level&gt; (e.g.<!-- -->
+</span></span><span><span>          eth/*=5,p2p=4)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --nocompaction                      (default: false)                   ($GETH_NOCOMPACTION)<!-- -->
+</span></span><span><span>          Disables db compaction after import<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --pprof                             (default: false)                   ($GETH_PPROF)<!-- -->
+</span></span><span><span>          Enable the pprof HTTP server<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --pprof.addr value                  (default: "127.0.0.1")             ($GETH_PPROF_ADDR)<!-- -->
+</span></span><span><span>          pprof HTTP server listening interface<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --pprof.blockprofilerate value      (default: 0)                       ($GETH_PPROF_BLOCKPROFILERATE)<!-- -->
+</span></span><span><span>          Turn on block profiling with the given rate<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --pprof.cpuprofile value                                               ($GETH_PPROF_CPUPROFILE)<!-- -->
+</span></span><span><span>          Write CPU profile to the given file<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --pprof.memprofilerate value        (default: 524288)                  ($GETH_PPROF_MEMPROFILERATE)<!-- -->
+</span></span><span><span>          Turn on memory profiling with the given rate<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --pprof.port value                  (default: 6060)                    ($GETH_PPROF_PORT)<!-- -->
+</span></span><span><span>          pprof HTTP server listening port<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --remotedb value                                                       ($GETH_REMOTEDB)<!-- -->
+</span></span><span><span>          URL for remote database<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --trace value                                                          ($GETH_TRACE)<!-- -->
+</span></span><span><span>          Write execution trace to the given file<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --verbosity value                   (default: 3)                       ($GETH_VERBOSITY)<!-- -->
+</span></span><span><span>          Logging verbosity: 0=silent, 1=error, 2=warn, 3=info, 4=debug, 5=detail<!-- -->
+</span></span><span><span>
+</span></span><span><span>   METRICS AND STATS<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --ethstats value                                                       ($GETH_ETHSTATS)<!-- -->
+</span></span><span><span>          Reporting URL of a ethstats service (nodename:secret@host:port)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics                           (default: false)                   ($GETH_METRICS)<!-- -->
+</span></span><span><span>          Enable metrics collection and reporting<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics.addr value                                                   ($GETH_METRICS_ADDR)<!-- -->
+</span></span><span><span>          Enable stand-alone metrics HTTP server listening interface.<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics.expensive                 (default: false)                   ($GETH_METRICS_EXPENSIVE)<!-- -->
+</span></span><span><span>          Enable expensive metrics collection and reporting<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics.influxdb                  (default: false)                   ($GETH_METRICS_INFLUXDB)<!-- -->
+</span></span><span><span>          Enable metrics export/push to an external InfluxDB database<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics.influxdb.bucket value     (default: "geth")                  ($GETH_METRICS_INFLUXDB_BUCKET)<!-- -->
+</span></span><span><span>          InfluxDB bucket name to push reported metrics to (v2 only)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics.influxdb.database value   (default: "geth")                  ($GETH_METRICS_INFLUXDB_DATABASE)<!-- -->
+</span></span><span><span>          InfluxDB database name to push reported metrics to<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics.influxdb.endpoint value   (default: "http://localhost:8086") ($GETH_METRICS_INFLUXDB_ENDPOINT)<!-- -->
+</span></span><span><span>          InfluxDB API endpoint to report metrics to<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics.influxdb.organization value (default: "geth")                  ($GETH_METRICS_INFLUXDB_ORGANIZATION)<!-- -->
+</span></span><span><span>          InfluxDB organization name (v2 only)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics.influxdb.password value   (default: "test")                  ($GETH_METRICS_INFLUXDB_PASSWORD)<!-- -->
+</span></span><span><span>          Password to authorize access to the database<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics.influxdb.tags value       (default: "host=localhost")        ($GETH_METRICS_INFLUXDB_TAGS)<!-- -->
+</span></span><span><span>          Comma-separated InfluxDB tags (key/values) attached to all measurements<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics.influxdb.token value      (default: "test")                  ($GETH_METRICS_INFLUXDB_TOKEN)<!-- -->
+</span></span><span><span>          Token to authorize access to the database (v2 only)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics.influxdb.username value   (default: "test")                  ($GETH_METRICS_INFLUXDB_USERNAME)<!-- -->
+</span></span><span><span>          Username to authorize access to the database<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics.influxdbv2                (default: false)                   ($GETH_METRICS_INFLUXDBV2)<!-- -->
+</span></span><span><span>          Enable metrics export/push to an external InfluxDB v2 database<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --metrics.port value                (default: 6060)                    ($GETH_METRICS_PORT)<!-- -->
+</span></span><span><span>          Metrics HTTP server listening port.<!-- -->
+</span></span><span><span>          Please note that --metrics.addr must be set<!-- -->
+</span></span><span><span>          to start the server.<!-- -->
+</span></span><span><span>
+</span></span><span><span>   MINER<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --mine                              (default: false)                   ($GETH_MINE)<!-- -->
+</span></span><span><span>          Enable mining<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --miner.etherbase value                                                ($GETH_MINER_ETHERBASE)<!-- -->
+</span></span><span><span>          0x prefixed public address for block mining rewards<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --miner.extradata value                                                ($GETH_MINER_EXTRADATA)<!-- -->
+</span></span><span><span>          Block extra data set by the miner (default = client version)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --miner.gaslimit value              (default: 30000000)                ($GETH_MINER_GASLIMIT)<!-- -->
+</span></span><span><span>          Target gas ceiling for mined blocks<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --miner.gasprice value              (default: 0)                       ($GETH_MINER_GASPRICE)<!-- -->
+</span></span><span><span>          Minimum gas price for mining a transaction<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --miner.newpayload-timeout value    (default: 2s)                      ($GETH_MINER_NEWPAYLOAD_TIMEOUT)<!-- -->
+</span></span><span><span>          Specify the maximum time allowance for creating a new payload<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --miner.recommit value              (default: 2s)                      ($GETH_MINER_RECOMMIT)<!-- -->
+</span></span><span><span>          Time interval to recreate the block being mined<!-- -->
+</span></span><span><span>
+</span></span><span><span>   MISC<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --help, -h                          (default: false)<!-- -->
+</span></span><span><span>          show help<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --synctarget value                                                     ($GETH_SYNCTARGET)<!-- -->
+</span></span><span><span>          File for containing the hex-encoded block-rlp as sync target(dev feature)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --version, -v                       (default: false)<!-- -->
+</span></span><span><span>          print the version<!-- -->
+</span></span><span><span>
+</span></span><span><span>   NETWORKING<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --bootnodes value                                                      ($GETH_BOOTNODES)<!-- -->
+</span></span><span><span>          Comma separated enode URLs for P2P discovery bootstrap<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --discovery.dns value                                                  ($GETH_DISCOVERY_DNS)<!-- -->
+</span></span><span><span>          Sets DNS discovery entry points (use "" to disable DNS)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --discovery.port value              (default: 30303)                   ($GETH_DISCOVERY_PORT)<!-- -->
+</span></span><span><span>          Use a custom UDP port for P2P discovery<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --discovery.v4, --discv4            (default: true)                    ($GETH_DISCOVERY_V4)<!-- -->
+</span></span><span><span>          Enables the V4 discovery mechanism<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --discovery.v5, --discv5            (default: false)                   ($GETH_DISCOVERY_V5)<!-- -->
+</span></span><span><span>          Enables the experimental RLPx V5 (Topic Discovery) mechanism<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --identity value                                                       ($GETH_IDENTITY)<!-- -->
+</span></span><span><span>          Custom node name<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --maxpeers value                    (default: 50)                      ($GETH_MAXPEERS)<!-- -->
+</span></span><span><span>          Maximum number of network peers (network disabled if set to 0)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --maxpendpeers value                (default: 0)                       ($GETH_MAXPENDPEERS)<!-- -->
+</span></span><span><span>          Maximum number of pending connection attempts (defaults used if set to 0)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --nat value                         (default: "any")                   ($GETH_NAT)<!-- -->
+</span></span><span><span>          NAT port mapping mechanism (any|none|upnp|pmp|pmp:&lt;IP&gt;|extip:&lt;IP&gt;)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --netrestrict value                                                    ($GETH_NETRESTRICT)<!-- -->
+</span></span><span><span>          Restricts network communication to the given IP networks (CIDR masks)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --nodekey value                                                        ($GETH_NODEKEY)<!-- -->
+</span></span><span><span>          P2P node key file<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --nodekeyhex value                                                     ($GETH_NODEKEYHEX)<!-- -->
+</span></span><span><span>          P2P node key as hex (for testing)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --nodiscover                        (default: false)                   ($GETH_NODISCOVER)<!-- -->
+</span></span><span><span>          Disables the peer discovery mechanism (manual peer addition)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --port value                        (default: 30303)                   ($GETH_PORT)<!-- -->
+</span></span><span><span>          Network listening port<!-- -->
+</span></span><span><span>
+</span></span><span><span>   PERFORMANCE TUNING<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --cache value                       (default: 1024)                    ($GETH_CACHE)<!-- -->
+</span></span><span><span>          Megabytes of memory allocated to internal caching (default = 4096 mainnet full<!-- -->
+</span></span><span><span>          node, 128 light mode)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --cache.blocklogs value             (default: 32)                      ($GETH_CACHE_BLOCKLOGS)<!-- -->
+</span></span><span><span>          Size (in number of blocks) of the log cache for filtering<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --cache.database value              (default: 50)                      ($GETH_CACHE_DATABASE)<!-- -->
+</span></span><span><span>          Percentage of cache memory allowance to use for database io<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --cache.gc value                    (default: 25)                      ($GETH_CACHE_GC)<!-- -->
+</span></span><span><span>          Percentage of cache memory allowance to use for trie pruning (default = 25% full<!-- -->
+</span></span><span><span>          mode, 0% archive mode)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --cache.noprefetch                  (default: false)                   ($GETH_CACHE_NOPREFETCH)<!-- -->
+</span></span><span><span>          Disable heuristic state prefetch during block import (less CPU and disk IO, more<!-- -->
+</span></span><span><span>          time waiting for data)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --cache.preimages                   (default: false)                   ($GETH_CACHE_PREIMAGES)<!-- -->
+</span></span><span><span>          Enable recording the SHA3/keccak preimages of trie keys<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --cache.snapshot value              (default: 10)                      ($GETH_CACHE_SNAPSHOT)<!-- -->
+</span></span><span><span>          Percentage of cache memory allowance to use for snapshot caching (default = 10%<!-- -->
+</span></span><span><span>          full mode, 20% archive mode)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --cache.trie value                  (default: 15)                      ($GETH_CACHE_TRIE)<!-- -->
+</span></span><span><span>          Percentage of cache memory allowance to use for trie caching (default = 15% full<!-- -->
+</span></span><span><span>          mode, 30% archive mode)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --crypto.kzg value                  (default: "gokzg")                 ($GETH_CRYPTO_KZG)<!-- -->
+</span></span><span><span>          KZG library implementation to use; gokzg (recommended) or ckzg<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --fdlimit value                     (default: 0)                       ($GETH_FDLIMIT)<!-- -->
+</span></span><span><span>          Raise the open file descriptor resource limit (default = system fd limit)<!-- -->
+</span></span><span><span>
+</span></span><span><span>   STATE HISTORY MANAGEMENT<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --gcmode value                      (default: "full")                  ($GETH_GCMODE)<!-- -->
+</span></span><span><span>          Blockchain garbage collection mode, only relevant in state.scheme=hash ("full",<!-- -->
+</span></span><span><span>          "archive")<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --history.state value               (default: 90000)                   ($GETH_HISTORY_STATE)<!-- -->
+</span></span><span><span>          Number of recent blocks to retain state history for (default = 90,000 blocks, 0<!-- -->
+</span></span><span><span>          = entire chain)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --history.transactions value        (default: 2350000)                 ($GETH_HISTORY_TRANSACTIONS)<!-- -->
+</span></span><span><span>          Number of recent blocks to maintain transactions index for (default = about one<!-- -->
+</span></span><span><span>          year, 0 = entire chain)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --state.scheme value                (default: "hash")                  ($GETH_STATE_SCHEME)<!-- -->
+</span></span><span><span>          Scheme to use for storing ethereum state ('hash' or 'path')<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --syncmode value                    (default: snap)                    ($GETH_SYNCMODE)<!-- -->
+</span></span><span><span>          Blockchain sync mode ("snap", "full" or "light")<!-- -->
+</span></span><span><span>
+</span></span><span><span>   TRANSACTION POOL (BLOB)<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --blobpool.datacap value            (default: 10737418240)             ($GETH_BLOBPOOL_DATACAP)<!-- -->
+</span></span><span><span>          Disk space to allocate for pending blob transactions (soft limit)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --blobpool.datadir value            (default: "blobpool")              ($GETH_BLOBPOOL_DATADIR)<!-- -->
+</span></span><span><span>          Data directory to store blob transactions in<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --blobpool.pricebump value          (default: 100)                     ($GETH_BLOBPOOL_PRICEBUMP)<!-- -->
+</span></span><span><span>          Price bump percentage to replace an already existing blob transaction<!-- -->
+</span></span><span><span>
+</span></span><span><span>   TRANSACTION POOL (EVM)<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --txpool.accountqueue value         (default: 64)                      ($GETH_TXPOOL_ACCOUNTQUEUE)<!-- -->
+</span></span><span><span>          Maximum number of non-executable transaction slots permitted per account<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --txpool.accountslots value         (default: 16)                      ($GETH_TXPOOL_ACCOUNTSLOTS)<!-- -->
+</span></span><span><span>          Minimum number of executable transaction slots guaranteed per account<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --txpool.globalqueue value          (default: 1024)                    ($GETH_TXPOOL_GLOBALQUEUE)<!-- -->
+</span></span><span><span>          Maximum number of non-executable transaction slots for all accounts<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --txpool.globalslots value          (default: 5120)                    ($GETH_TXPOOL_GLOBALSLOTS)<!-- -->
+</span></span><span><span>          Maximum number of executable transaction slots for all accounts<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --txpool.journal value              (default: "transactions.rlp")      ($GETH_TXPOOL_JOURNAL)<!-- -->
+</span></span><span><span>          Disk journal for local transaction to survive node restarts<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --txpool.lifetime value             (default: 3h0m0s)                  ($GETH_TXPOOL_LIFETIME)<!-- -->
+</span></span><span><span>          Maximum amount of time non-executable transaction are queued<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --txpool.locals value                                                  ($GETH_TXPOOL_LOCALS)<!-- -->
+</span></span><span><span>          Comma separated accounts to treat as locals (no flush, priority inclusion)<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --txpool.nolocals                   (default: false)                   ($GETH_TXPOOL_NOLOCALS)<!-- -->
+</span></span><span><span>          Disables price exemptions for locally submitted transactions<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --txpool.pricebump value            (default: 10)                      ($GETH_TXPOOL_PRICEBUMP)<!-- -->
+</span></span><span><span>          Price bump percentage to replace an already existing transaction<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --txpool.pricelimit value           (default: 1)                       ($GETH_TXPOOL_PRICELIMIT)<!-- -->
+</span></span><span><span>          Minimum gas price tip to enforce for acceptance into the pool<!-- -->
+</span></span><span><span>
+</span></span><span><span>    --txpool.rejournal value            (default: 1h0m0s)                  ($GETH_TXPOOL_REJOURNAL)<!-- -->
+</span></span><span><span>          Time interval to regenerate the local transaction journal<!-- -->
+</span></span><span><span>
+</span></span><span><span>   VIRTUAL MACHINE<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>    --vmdebug                           (default: false)                   ($GETH_VMDEBUG)<!-- -->
+</span></span><span><span>          Record information useful for VM and contract debugging<!-- -->
+</span></span><span><span>
+</span></span><span><span>
+</span></span><span><span>COPYRIGHT:<!-- -->
+</span></span><span><span>   Copyright 2013-2023 The go-ethereum Authors</span></span></code></pre></div></div></div></article>
+      <nav class="pager" aria-label="Previous and next pages"><a class="pager-link previous" href="/docs/en/operation/gesia-chain/quick-start/start-node/node-connect/"><span>Previous</span><strong>Node Connect</strong></a><a class="pager-link next" href="/docs/en/operation/gesia-chain/use-public-api-server-rpc/"><span>Next</span><strong>Use Public API Server(RPC)</strong></a></nav>
+      <footer class="docs-footer">GESIA Platform documentation &middot; Restored 2026</footer>
+    </main>
+  </div>
+  <script src="/common/js/docs.js"></script>
+</body>
+</html>

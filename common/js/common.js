@@ -67,20 +67,20 @@ let lang36 = [
 ];
 let lang37 = ["<b>Carbon Emission Data Tokenization</b>", "<b>탄소 배출 데이터 토큰화</b>"];
 let lang38 = [
-  "To tokenize centralized carbon emission data, the <a target=\"blank\" href=\"https://web.archive.org/web/20250401011748/https://docs-en.gesia.io/\" class=\"btn btn-text\">Notary Oracle</a> verifies the data and <br/>certifies it through a multi-signature process between the sender and receiver, ensuring the reliability of the external data.",
-  "중앙집중식 탄소 배출 데이터를 토큰화하기 위해, <a target=\"blank\" href=\"https://web.archive.org/web/20250401011748/https://docs-en.gesia.io/\" class=\"btn btn-text\">공증자 오라클</a>은 데이터를 검증하고 송신자와 수신자 간의 다중 서명 과정을 통해 이를 인증하여 외부 데이터의 신뢰성을 보장합니다."
+  "To tokenize centralized carbon emission data, the <a href=\"/docs/en/techresearch/oracle/\" class=\"btn btn-text\">Notary Oracle</a> verifies the data and <br/>certifies it through a multi-signature process between the sender and receiver, ensuring the reliability of the external data.",
+  "중앙집중식 탄소 배출 데이터를 토큰화하기 위해, <a href=\"/docs/kr/techresearch/oracle/\" class=\"btn btn-text\">공증자 오라클</a>은 데이터를 검증하고 송신자와 수신자 간의 다중 서명 과정을 통해 이를 인증하여 외부 데이터의 신뢰성을 보장합니다."
 ];
 let lang39 = ["The Notary Oracle tokenizes external carbon emission data using calculators from certified institutions.", "공증자 오라클은 인증된 기관의 계산기를 사용하여 외부 탄소 배출 데이터를 토큰화합니다."];
 let lang40 = ["<b>Carbon Offset Data Tokenization</b>", "<b>탄소 오프셋 데이터 토큰화</b>"];
 let lang41 = [
-  "To tokenize centralized carbon offset data (carbon absorption and carbon reduction), the <a target=\"blank\" href=\"https://web.archive.org/web/20250401011748/https://docs-en.gesia.io/\" class=\"btn btn-text\">Notary Oracle</a> verifies the data and certifies it through a multi-signature process between the data sender and receiver, ensuring the reliability of the external data.",
-  "중앙집중식 탄소 오프셋 데이터(탄소 흡수 및 탄소 감축)를 토큰화하기 위해, <a target=\"blank\" href=\"https://web.archive.org/web/20250401011748/https://docs-en.gesia.io/\" class=\"btn btn-text\">공증자 오라클</a>은 데이터를 검증하고 데이터 송신자와 수신자 간의 다중 서명 과정을 통해 이를 인증하여 외부 데이터의 신뢰성을 보장합니다."
+  "To tokenize centralized carbon offset data (carbon absorption and carbon reduction), the <a href=\"/docs/en/techresearch/oracle/\" class=\"btn btn-text\">Notary Oracle</a> verifies the data and certifies it through a multi-signature process between the data sender and receiver, ensuring the reliability of the external data.",
+  "중앙집중식 탄소 오프셋 데이터(탄소 흡수 및 탄소 감축)를 토큰화하기 위해, <a href=\"/docs/kr/techresearch/oracle/\" class=\"btn btn-text\">공증자 오라클</a>은 데이터를 검증하고 데이터 송신자와 수신자 간의 다중 서명 과정을 통해 이를 인증하여 외부 데이터의 신뢰성을 보장합니다."
 ];
 let lang42 = ["The Notary Oracle tokenizes external carbon absorption and reduction data authenticated by certified institutions.", "공증자 오라클은 인증된 기관에 의해 인증된 외부 탄소 흡수 및 감축 데이터를 토큰화합니다."];
 let lang43 = ["<b>Net-Zero Consensus Algorithm for Carbon Emission and Offset Tokenization</b>", "<b>탄소 배출 및 오프셋 토큰화를 위한 넷제로 합의 알고리즘</b>"];
 let lang44 = [
-  "An Integrated Framework for Achieving Net-Zero by Aggregating Carbon Emission and Offset Data and Implementing a <a target=\"blank\" href=\"https://web.archive.org/web/20250401011748/https://docs-en.gesia.io/\" class=\"btn btn-text\">Consensus Algorithm</a> for Carbon Credit Burning and Reduction through a Notarized Multi-Signature Process.",
-  "공증된 다중 서명 과정을 통해 탄소 배출 및 오프셋 데이터를 집계하고 탄소 크레딧 소각 및 감축을 위한 <a target=\"blank\" href=\"https://web.archive.org/web/20250401011748/https://docs-en.gesia.io/\" class=\"btn btn-text\">합의 알고리즘</a>을 구현하여 넷제로를 달성하기 위한 통합 프레임워크."
+  "An Integrated Framework for Achieving Net-Zero by Aggregating Carbon Emission and Offset Data and Implementing a <a href=\"/docs/en/techresearch/consensus/\" class=\"btn btn-text\">Consensus Algorithm</a> for Carbon Credit Burning and Reduction through a Notarized Multi-Signature Process.",
+  "공증된 다중 서명 과정을 통해 탄소 배출 및 오프셋 데이터를 집계하고 탄소 크레딧 소각 및 감축을 위한 <a href=\"/docs/kr/techresearch/consensus/\" class=\"btn btn-text\">합의 알고리즘</a>을 구현하여 넷제로를 달성하기 위한 통합 프레임워크."
 ];
 let lang45 = ["Implementing Net Zero by Certifying Carbon Data Tokens through Consensus Algorithms and Multi-Signature Validation", "합의 알고리즘 및 다중 서명 검증을 통해 탄소 데이터 토큰을 인증하여 넷제로 구현"];
 let lang46 = ["<b>Carbon Credit Products</b>", "<b>탄소 크레딧 제품</b>"];
@@ -113,7 +113,7 @@ let lang57 = [
 let lang58 = ["<b>Retiree or Burner</b>", "<b>탄소 크레딧 소각자</b>"];
 let lang59 = [
   "Carbon credit retirees are entities, such as companies or organizations, that retire carbon credits to achieve net-zero emissions. <br/>They participate in offsetting carbon emissions by retiring credits.",
-  "탄소 크레딧 소각자는 <a target=\"blank\" href=\"https://web.archive.org/web/20250401011748/https://docs-en.gesia.io/\" class=\"btn btn-text\">순제로 배출</a>을 달성하기 위해 탄소 크레딧을 소각하는 기업이나 조직과 같은 단체입니다.<br/> 그들은 크레딧을 소각함으로써 탄소 배출을 상쇄하는 데 참여합니다."
+  "탄소 크레딧 소각자는 <a href=\"/docs/kr/techresearch/consensus/\" class=\"btn btn-text\">순제로 배출</a>을 달성하기 위해 탄소 크레딧을 소각하는 기업이나 조직과 같은 단체입니다.<br/> 그들은 크레딧을 소각함으로써 탄소 배출을 상쇄하는 데 참여합니다."
 ];
 let lang60 = ["<b>AI as a Service</b>", "<b>AI 서비스</b>"];
 let lang61 = [
@@ -222,9 +222,33 @@ function changeLang(target){
     
     }
     $('body').attr('data-lang',target);
+    updateSiteLinks(target);
     
     updateIntroText()
 
+}
+
+/**
+ * 복구된 문서와 프로젝트 화면을 현재 언어에 맞게 연결한다.
+ * @param {string} target - 'kr' 또는 'en'
+ * @returns {void}
+ */
+function updateSiteLinks(target){
+    const isKorean = target === 'kr';
+    const docsBase = isKorean ? '/docs/kr' : '/docs/en';
+    const productBase = isKorean ? '/carbon-credits/kr' : '/carbon-credits/en';
+
+    $('.btnDocs').attr('href', docsBase + '/');
+    $('.btnAuth').attr('href', docsBase + '/techresearch/auth/');
+    $('.btnAuthTransaction').attr('href', docsBase + '/techresearch/auth/#transaction-authentication');
+    $('.btnAuthEmission').attr('href', docsBase + '/techresearch/auth/#emission-authentication');
+    $('.btnAuthOffset').attr('href', docsBase + '/techresearch/auth/#offset-authentication');
+    $('.btnPlatform').attr('href', docsBase + '/service/');
+    $('.btnExplore').attr('href', docsBase + '/techresearch/');
+    $('.btnNetZero').attr('href', docsBase + '/techresearch/consensus/');
+    $('.btnProduct1').attr('href', productBase + '/exomad_green_biochar_bolivia/');
+    $('.btnProduct2').attr('href', productBase + '/redd+chacovivo/');
+    $('.btnProduct3').attr('href', productBase + '/delta_blue_carbon_sindh_indus/');
 }
 
 
@@ -249,19 +273,19 @@ function langToggle(target){
         if($('body').attr('data-lang') == 'kr'){
             changeLang('en');
             $('.btnLang').html('<b class="langNow">EN</b>');
-            $('.btnDocs').attr('href','https://web.archive.org/web/20250401011748/https://docs-en.gesia.io/');
+            $('.btnDocs').attr('href','/docs/en/');
 
-            $('.btnProduct1').attr('href','https://web.archive.org/web/*/https://carboncredit-docs-en.gesia.io/exomad_green_biochar_bolivia');
-            $('.btnProduct2').attr('href','https://web.archive.org/web/*/https://carboncredit-docs-en.gesia.io/redd+chacovivo');
-            $('.btnProduct3').attr('href','https://web.archive.org/web/*/https://carboncredit-docs-en.gesia.io/delta_blue_carbon_sindh_indus');
+            $('.btnProduct1').attr('href','/carbon-credits/en/exomad_green_biochar_bolivia/');
+            $('.btnProduct2').attr('href','/carbon-credits/en/redd+chacovivo/');
+            $('.btnProduct3').attr('href','/carbon-credits/en/delta_blue_carbon_sindh_indus/');
         }else{
             changeLang('kr')
             $('.btnLang').html('<b class="langNow">KR</b>');
-            $('.btnDocs').attr('href','https://web.archive.org/web/20250401011748/https://docs-en.gesia.io/');
+            $('.btnDocs').attr('href','/docs/kr/');
 
-            $('.btnProduct1').attr('href','https://web.archive.org/web/*/https://carboncredit-docs-kr.gesia.io/exomad_green_biochar_bolivia');
-            $('.btnProduct2').attr('href','https://web.archive.org/web/*/https://carboncredit-docs-kr.gesia.io/redd+chacovivo');
-            $('.btnProduct3').attr('href','https://web.archive.org/web/*/https://carboncredit-docs-kr.gesia.io/delta_blue_carbon_sindh_indus');
+            $('.btnProduct1').attr('href','/carbon-credits/kr/exomad_green_biochar_bolivia/');
+            $('.btnProduct2').attr('href','/carbon-credits/kr/redd+chacovivo/');
+            $('.btnProduct3').attr('href','/carbon-credits/kr/delta_blue_carbon_sindh_indus/');
         }
     }else {
         changeLang(target)
@@ -449,5 +473,3 @@ $(document).ready(function() {
 
 
 });
-
-
